@@ -1,0 +1,10 @@
+<!-- custom_button_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="32dp" /> <!-- Radius sudut 32dp untuk border-radius -->
+    <solid android:color="#000" /> <!-- Warna latar belakang hitam -->
+    <padding
+        android:left="0dp"
+        android:top="0dp"
+        android:right="0dp"
+        android:bottom="0dp" />
+</shape>

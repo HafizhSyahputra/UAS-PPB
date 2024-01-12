@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".detail_pesawat">
+
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:src="@drawable/back"
+        />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail Pesawat"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="100dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/plane"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="-340dp"
+        />
+
+    <TextView
+        android:id="@+id/jenisPesawat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis          :"
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="18dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="0dp"
+        />
+    <TextView
+        android:id="@+id/jenispesawat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" AB002"
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="18dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="0dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kapasitas : 32 "
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="18dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginStart="-160dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelas          : First Class "
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="18dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginStart="-130dp"
+        />
+
+    <TextView
+        android:id="@+id/hargaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga        : "
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="18dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginStart="-195dp"
+        />
+
+    <TextView
+        android:id="@+id/harga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1000000"
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="18dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginStart="-3dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi :"
+        android:layout_marginTop="280dp"
+        android:layout_marginStart="-335dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:textSize="23dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesawat telah menjadi salah satu sarana transportasi utama dalam penerbangan jarak jauh dan telah memainkan peran yang sangat penting dalam menghubungkan berbagai tempat di seluruh dunia. Dengan teknologi yang terus berkembang, pesawat terus mengalami inovasi untuk meningkatkan efisiensi, keamanan, dan kenyamanan dalam penerbangan.
+
+
+
+
+
+"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_marginTop="320dp"
+        android:layout_marginStart="-115dp"
+        />
+
+
+</LinearLayout>

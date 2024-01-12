@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".detail_pesawat2">
+
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:src="@drawable/back"
+        />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail Pesawat"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="100dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="128dp"
+        android:layout_height="132dp"
+        app:cardBackgroundColor="#ffffff"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="-310dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="3dp">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            android:src="@drawable/plane3" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/jenisPesawat"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Jenis          :"
+        android:textSize="18dp" />
+    <TextView
+        android:id="@+id/jenispesawat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" GC003"
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="18dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="0dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kapasitas : 112 "
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="18dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginStart="-165dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelas          : First Class "
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="18dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginStart="-130dp"
+        />
+
+    <TextView
+        android:id="@+id/hargaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga        : "
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="18dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginStart="-195dp"
+        />
+
+    <TextView
+        android:id="@+id/harga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1500000"
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="18dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginStart="-3dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi :"
+        android:layout_marginTop="280dp"
+        android:layout_marginStart="-335dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:textSize="23dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesawat telah menjadi salah satu sarana transportasi utama dalam penerbangan jarak jauh dan telah memainkan peran yang sangat penting dalam menghubungkan berbagai tempat di seluruh dunia. Dengan teknologi yang terus berkembang, pesawat terus mengalami inovasi untuk meningkatkan efisiensi, keamanan, dan kenyamanan dalam penerbangan.
+
+
+
+
+
+"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_marginTop="320dp"
+        android:layout_marginStart="-115dp"
+        />
+
+
+</LinearLayout>

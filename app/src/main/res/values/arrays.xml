@@ -1,0 +1,8 @@
+<resources>
+    <string-array name="jenis_pesawat_array">
+        <item>AB002</item>
+        <item>GC003</item>
+        <item>IC409</item>
+        <item>NB230</item>
+    </string-array>
+</resources>
